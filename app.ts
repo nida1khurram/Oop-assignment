@@ -32,7 +32,7 @@ class Ebook extends Book{   //7
         super(t, a)
         this.fileSize = f;
     }
-    getEbookPrint(){    //8
+    getPrintBook(){    //8
         console.log(`${this.title} is written by  ${this.author} and its file size is ${this.fileSize} Mb`)
     }
 }
@@ -43,4 +43,4 @@ console.log(book);
 console.log(ebook)
 
 book.getPrintBook();    //6
-ebook.getEbookPrint();
+ebook.getPrintBook();
